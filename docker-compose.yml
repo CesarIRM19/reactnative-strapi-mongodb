@@ -1,5 +1,4 @@
 version: "3.7"
-
 services:
   strapi:
     container_name: tci2024b
@@ -14,6 +13,6 @@ services:
       - DATABASE_USERNAME=fantasmita
       - DATABASE_PASSWORD=fantasmita
     ports:
-      - 1337:1337    
+      - 1337:1337
     restart: always
 
