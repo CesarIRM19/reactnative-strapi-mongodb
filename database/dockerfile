@@ -1,0 +1,18 @@
+# Usa la imagen base de Strapi
+FROM strapi/strapi:latest
+
+# Establece las variables de entorno por defecto
+ENV DATABASE_CLIENT=mongo \
+    DATABASE_HOST=tci2024b.dycbu.mongodb.net \
+    DATABASE_PORT=27017 \
+    DATABASE_SSL=true \
+    DATABASE_SRV=true \
+    DATABASE_NAME=tci2024b \
+    DATABASE_USERNAME=fantasmita \
+    DATABASE_PASSWORD=fantasmita
+
+# Exponer el puerto utilizado por la aplicación
+EXPOSE 1337
+
+# Copia el contenido necesario si tienes archivos adicionales para Strapi
+# COPY ./src /srv/app

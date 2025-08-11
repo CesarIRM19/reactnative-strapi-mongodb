@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  strapi:
+    container_name: tci2024b
+    image: strapi/strapi:latest
+    environment:
+      DATABASE_CLIENT: mongo
+      DATABASE_HOST: tci2024b.dycbu.mongodb.net
+      DATABASE_PORT: 27017
+      DATABASE_SSL: "true"
+      DATABASE_SRV: "true"
+      DATABASE_NAME: tci2024b
+      DATABASE_USERNAME: fantasmita
+      DATABASE_PASSWORD: fantasmita
+    ports:
+      - "80:1337"  # Mapea el puerto 1337 de Strapi al puerto 80 de Azure
+    restart: always
+
