@@ -1,22 +1,22 @@
-# 🎬 Movie Reviews App
+# Movie Reviews App
 
 Mobile application developed in **React Native** for movie reviews, using **Strapi** as the API and **MongoDB Atlas** as the database.  
 The API was deployed on **Microsoft Azure** for cloud availability.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📱 Mobile app in **React Native** with an intuitive interface.
-- 🔍 Movie search and details display.
-- 📝 User review and rating system.
-- 🔒 User authentication and management.
-- ☁️ API developed in **Strapi** and deployed on **Azure**.
-- 🗄 **MongoDB Atlas** database in the cloud.
+-  Mobile app in **React Native** with an intuitive interface.
+-  Movie search and details display.
+-  User review and rating system.
+-  User authentication and management.
+-  API developed in **Strapi** and deployed on **Azure**.
+-  **MongoDB Atlas** database in the cloud.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 ### Frontend (Mobile App)
 - [React Native](https://reactnative.dev/)
