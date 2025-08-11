@@ -5,14 +5,15 @@ services:
     image: strapi/strapi:latest
     environment:
       DATABASE_CLIENT: mongo
-      DATABASE_HOST: tci2024b.dycbu.mongodb.net
+      DATABASE_HOST: #host de mongodb atlas
       DATABASE_PORT: 27017
       DATABASE_SSL: "true"
       DATABASE_SRV: "true"
-      DATABASE_NAME: tci2024b
-      DATABASE_USERNAME: fantasmita
-      DATABASE_PASSWORD: fantasmita
+      DATABASE_NAME: #nombre de la base de datos de mongodb atlas
+      DATABASE_USERNAME: #usuario
+      DATABASE_PASSWORD: #contraseña
     ports:
       - "80:1337"  # Mapea el puerto 1337 de Strapi al puerto 80 de Azure
     restart: always
+
 
